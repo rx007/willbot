@@ -15,3 +15,12 @@ module.exports = (robot) ->
 
   robot.hear /promoted/i, (res) ->
     res.send "Do you really want to be promoted though? Lol"
+
+  robot.hear /rex/i, (res) ->
+    res.send "Rex: really, you run?"
+
+  robot.hear /rex/i, (res) ->
+    res.send "@rex: really, you run?"
+
+  robot.hear /presentation/i, (res) ->
+    res.send "@here: dear God that'll be a boring presentation. Drink coffee before."
